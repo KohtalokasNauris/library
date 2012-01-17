@@ -2,6 +2,10 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
 
+# Added these!!!!!!
+gem 'execjs'
+gem 'therubyracer'
+
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -18,9 +22,7 @@ end
 
 gem 'jquery-rails'
 
-# Added these!!!!!!
-gem 'execjs'
-gem 'therubyracer'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
